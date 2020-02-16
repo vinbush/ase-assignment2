@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="endpoint-client:war">
+    <output-path>$PROJECT_DIR$/endpoint-client/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>endpoint-client</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="chapter4-client.war">
+      <element id="artifact" artifact-name="endpoint-client:war exploded" />
+    </root>
+  </artifact>
+</component>
